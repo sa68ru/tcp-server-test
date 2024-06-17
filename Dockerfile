@@ -14,4 +14,4 @@ COPY --from=builder /usr/bin/tcp-server-test .
 
 VOLUME /data
 
-ENTRYPOINT ["tcp-server-test"]
+ENTRYPOINT ["./tcp-server-test"]
